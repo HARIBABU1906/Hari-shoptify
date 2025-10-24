@@ -166,7 +166,7 @@
     if (storedUser && storedUser.email === email && storedUser.password === password) {
       alert("Login Successful!");
       localStorage.setItem('loggedInUser', JSON.stringify(storedUser));
-      window.location.href = "index1.html"; // redirect to index
+      window.location.href = "product.html"; // redirect to index
     } else {
       alert("Invalid email or password");
     }
@@ -175,3 +175,4 @@
 
 </body>
 </html>
+
